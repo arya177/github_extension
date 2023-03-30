@@ -14,11 +14,11 @@ if (import.meta.hot) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    exports.register(type, "/home/arya/github_opensorce/opensaused_r/opensaused/src/App.jsx " + id);
+    exports.register(type, "/home/arya/github_opensorce/opensaused_r/github_extensiom/src/App.jsx " + id);
   };
   window.$RefreshSig$ = exports.createSignatureFunctionForTransform;
 }
-var _jsxFileName = "/home/arya/github_opensorce/opensaused_r/opensaused/src/App.jsx", _s = $RefreshSig$();
+var _jsxFileName = "/home/arya/github_opensorce/opensaused_r/github_extensiom/src/App.jsx", _s = $RefreshSig$();
  const useState = react_default["useState"];
  const _jsxDEV = react_jsx_dev_runtime_default["jsxDEV"];
 function App() {
